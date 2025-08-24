@@ -29,7 +29,7 @@ h3{
 }
 }
 
-@media(max-width:768px){
+@media(max-width:1920px){
     .header-content img{
         height: 240px;
         object-fit: cover;
@@ -37,8 +37,11 @@ h3{
     }
     .header-content .brand{
         margin: -153px 0px 119px ;
-    }
-    .header-content .brandh2{
+    }}
+
+@media(max-width:768px){
+
+    .header-content .brand h2{
         font-size: 28px;
     }
     .header-content .brand h3{

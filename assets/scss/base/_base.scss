@@ -20,13 +20,13 @@
 
 }
 body{
-    box-sizing: border-box;
     font-family: "Noto Sans TC", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.05em;
 }
 .container{
-    max-width: 1296px;
+    padding: 0px 12px;
+    max-width: 1320px;
     margin: auto;
 }
 img{

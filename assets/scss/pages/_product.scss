@@ -96,8 +96,6 @@
 }
 
 .col-5 .paragraph p {
-    line-height: 1.5;
-    font-weight: 400;
     padding-bottom: 12px;
 }
 @media(max-width:768px){
@@ -156,7 +154,7 @@
 }
 
 .size .btn-wraper li {
-    width: 30%;
+    min-width: 160px;
     border: 1px solid #DEE2E6;
     border-radius: 4px;
     margin:4px;
@@ -203,7 +201,7 @@
     }
     
     .size .btn-wraper li {
-        width: 50%;
+        width: calc(50%  - 4px * 2);
         margin:4px;
     }
 }
